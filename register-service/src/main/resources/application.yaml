@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: register-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/register_db
+    username: postgres
+    password: 2504
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 8081
